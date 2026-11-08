@@ -1,0 +1,9 @@
+{"bug_type":"284","timestamp":"2026-11-08 05:50:03.00 +0100","os_version":"macOS 27.2 (26B123)","roots_installed":0,"incident_id":"43DE1F7E-16A6-42D6-A2C2-30526A7165DB"}
+{
+  "bug_type" : "284",
+  "roots_installed" : 0,
+  "process_name" : "dmhost",
+  "registers" : {},
+  "timestamp" : 1794113403,
+  "analysis" : {"fw_power_state":1,"fw_ta_substate":{"slot0":0,"slot1":0},"fw_power_boost_controller":0,"guilty_dm":1,"fw_power_controller_in_charge":8,"fw_cl_state":{"slot0":0,"slot1":0,"slot2":0},"fw_perf_state_lo":5,"fw_ta_state":{"slot0":1,"slot1":0},"signature":577,"fw_power_substate":0,"command_buffer_trace_id":2064712356,"fw_perf_state_select":1,"restart_reason":4,"fw_3d_state":{"slot0":0,"slot1":0,"slot2":0},"fw_gpc_perf_state":6,"fw_perf_state_hi":6,"fw_power_limit_controller":8,"restart_reason_desc":"firmware-detected lockup"}
+}

@@ -1,0 +1,123 @@
+launcher: The Legend of Zelda: Ocarina of Time (0400486024DEC000), host /Users/rubenbjugan/Applications/The Legend of Zelda - Ocarina of Time.app/Contents/MacOS/dmhost
+launcher: env DM_FPS_TARGET=60 (/Users/rubenbjugan/Library/Application Support/nxnative/0400486024DEC000/env.txt)
+launcher: env DM_NVN_NDVE_MOVIE_DIRECT=1} (/Users/rubenbjugan/Library/Application Support/nxnative/0400486024DEC000/env.txt)
+launcher: env DM_RENDER_SCALE=1.00 (/Users/rubenbjugan/Library/Application Support/nxnative/0400486024DEC000/env.txt)
+launcher: no settings window (DM_LAUNCHER=0 or --no-launcher)
+launcher: env DM_FULLSCREEN=1 (saved choice)
+launcher: env DM_PSO_PREBUILD=0 (saved choice)
+launcher: env DM_METAL_HUD=1 (saved choice)
+[dm] [nvn] null device: 743 names, 498 implemented (484 semantic + 14 empty, 351 of them on the large host stack), the other 245 go to the red-reporting stub
+[dm] build: commit bd979ced3ae6, shader chain 3ee52af3ca18, profile 0400486024DEC000
+[dm] key numbers K18=266 KTLS=267 KTLR=268 KGATE=269
+[dm] main: gates 66 patch_off 0x4eb0000 keys 266/267/268/269
+[dm] main: base 0x1053a0000 size 0x5104000
+[dm] subsdk0: gates 2 patch_off 0xf0000 keys 266/267/268/269
+[dm] subsdk0: base 0x10a4a4000 size 0x114000
+[dm] sdk: gates 114 patch_off 0x1090000 keys 266/267/268/269
+[dm] sdk: base 0x10a5b8000 size 0x1190000
+[dm] main: undefined weak glslcCompilePreSpecialized bound to 0
+[dm] main: undefined weak glslcCompileSpecialized bound to 0
+[dm] main: undefined weak glslcInitialize bound to 0
+[dm] main: undefined weak glslcFinalize bound to 0
+[dm] main: undefined weak glslcGetVersion bound to 0
+[dm] main: undefined weak glslcSetAllocator bound to 0
+[dm] main: undefined weak glslcGetDefaultOptions bound to 0
+[dm] main: undefined weak _ZTHN9grpc_core26ApplicationCallbackExecCtx18callback_exec_ctx_E bound to 0
+[dm] main: reloc relative=0 relr=535967 abs/glob=2051 jump=1110
+[dm] subsdk0: reloc relative=0 relr=298 abs/glob=462 jump=506
+[dm] sdk: _ZZN2nn5movie6detail17HeapMemoryManager11GetInstanceEvE8instance bound to an earlier module's definition (subsdk0)
+[dm] sdk: _ZTISt12out_of_range bound to an earlier module's definition (main)
+[dm] sdk: _ZTISt12out_of_range bound to an earlier module's definition (main)
+[dm] sdk: _ZTSNSt3__112bad_weak_ptrE bound to an earlier module's definition (main)
+[dm] sdk: _ZTISt9bad_alloc bound to an earlier module's definition (main)
+[dm] sdk: _ZTISt9bad_alloc bound to an earlier module's definition (main)
+[dm] sdk: _ZTISt9bad_alloc bound to an earlier module's definition (main)
+[dm] sdk: _ZTSSt12length_error bound to an earlier module's definition (main)
+[dm] sdk: reloc relative=0 relr=17089 abs/glob=10857 jump=10082 (some bound to an earlier module's definition)
+[dm] sdk: 77 bound to an earlier module's definition in all
+[dm] force: 512 entries hit, 743 not referenced by this game
+[dm] cheats: /Users/rubenbjugan/Library/Application Support/nxnative/0400486024DEC000/cheats: no file for build E0F3CCFAF50065AE
+[dm] sdk: NintendoSDK nnSdk-Generic_22_2_8-Relea (major 22)
+[dm] stubs=0
+[dm] front end: Metal performance HUD on (DM_METAL_HUD)
+[dm] front end: drawable 2560x1440
+[dm] front end: each controller is a player of its own, the keyboard plays with player 1
+[dm] front end: hold the Home button to quit is on
+[dm] main guest thread QoS 0x21 (priority 44)
+[dm] >>> nnosInitialize
+[dm] guest AS 0x7d94000000 +0x1220000000  heap 0x7da4000000 alias 0x7fb4000000 stack 0x7fa4000000
+[dm] >>> nninitInitializeSdkModule
+[dm] init takeover: nndiagStartup (no-op)
+[dm] init takeover: oe::Initialize (no-op)
+[dm] init takeover: aoc::Initialize (no-op)
+[dm] init takeover: err::InitializeContextWriterApi (no-op)
+[dm] init takeover: diag::InitializeApplicationAbortObserver (no-op)
+[dm] init takeover: pctl::Initialize (no-op)
+[dm] init takeover: fs::InitializeForApplication (no-op)
+[dm] >>> nninitStartup
+[dm] [mem] heap 6.20 GB (heap region 8.00 GB)
+[dm] main: DT_INIT +0x12177e0 (init_array 9783 entries)
+[dm] sdk: built for the Switch 2 (spec: Ounce)
+[dm] subsdk0: DT_INIT +0x40 (init_array 0 entries)
+[dm] sdk: DT_INIT +0x60 (init_array 96 entries)
+[dm] >>> nnMain
+[dm] oe::SetFocusHandlingMode 2 (focus notifications)
+[dm] fs RomFS image /Users/rubenbjugan/Applications/The Legend of Zelda - Ocarina of Time.app/Contents/Resources/romfs.img: 187182 entries
+[dm] fs mount content: → /Users/rubenbjugan/Applications/The Legend of Zelda - Ocarina of Time.app/Contents/Resources/romfs.img (read-only)
+[dm] nv::InitializeGraphics: pool 0.00 MB, recorded (the host's graphics layer allocates its own)
+[dm] vi::GetDisplayVsyncEvent: 0x7da7f088a0 signalled by the host at 60 Hz
+[dm] [nvn-mtl] window origin: lower left (GL: viewport flipped, winding reversed, present flipped)
+[dm] [nvn] device API 231.40 (SDK 22, Switch 2)
+[dm] [nvn-mtl] window origin: upper left
+[dm] [nvn] window origin upper left (as D3D / Metal)
+[dm] [nvn] depth mode near=-w (GL)
+[dm] [msl] host shader libraries: 13, compiled for macosx by Apple metal version 32023.922 (metalfe-32023.922.4)
+[dm] [nvn-mtl] Metal device Apple M1 Pro
+[dm] [nvn] WindowBuilderSetNumActiveTextures 3 (the host rotates through the SetTextures count)
+[dm] [nvn] WindowInitialize swap chain 3 textures, interval 1, first 2560x1440 format 0x25
+[dm] [nvn] present tick 60 Hz, interval mode game (original semantics) (game profile present_interval; present interval set by the game 1; window)
+[dm] [nvn] present cap 60 fps (DM_FPS_TARGET) not applied: this main has neither a frame step nor an engine frame limit the host writes, so the game's own present interval stays
+[dm] [nvn] present thread time-constraint policy (period 16.667 ms, computation 2.000 ms) set
+[dm] hid supported controller ids 0x1ff (bit n: No n+1, bit 8 Handheld, bit 9 Other)
+[dm] hid supported controller styles 0x1f
+[dm] aoc: reporting 0 add-on contents {} (no DM_AOC_DIR)
+[dm] [mem] address region 0.30 GB at alias +0.12 GB, returning to main+0x7ed630
+[dm] [mem] alias region mapped up to +0.42 GB (alias region 64.00 GB)
+[dm] [mem] alias region mapped 0.35 GB (application pool 9.00 GB)
+[dm] [mem] alias region mapped up to +0.50 GB (alias region 64.00 GB)
+[dm] [mem] alias region mapped 0.50 GB (application pool 9.00 GB)
+[dm] [mem] alias region mapped up to +0.79 GB (alias region 64.00 GB)
+[dm] front end: drawable 2560x1504
+[dm] [nvn] TextureBuilderSetSwizzle not identity (2 0 0 1): remapped with a Metal view when sampling
+[dm] front end: drawable 3600x2260
+[dm] [nvn] MapVirtual: the storage of virtual pool 0x7dc4e33288 (0x13100000 bytes) points at physical pool 0x7dc4d17060 + 0
+[dm] [nvn-mtl] CPU-written texture ser=10 4x1x1 format 0x25 target 0 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=11 4x1x1 format 0x25 target 3 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=12 4x4x1 format 0x25 target 1 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=13 4x4x1 format 0x25 target 4 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=14 4x4x1 format 0x25 target 2 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=15 4x4x6 format 0x25 target 8 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=16 4x4x6 format 0x25 target 9 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=17 4x4x1 format 0x25 target 1 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=18 4x4x6 format 0x25 target 8 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=19 4x4x6 format 0x25 target 9 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=20 4x4x1 format 0x25 target 1 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=21 4x1x1 format 0x25 target 0 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=22 4x1x1 format 0x25 target 3 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=23 4x4x1 format 0x25 target 4 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=24 4x4x1 format 0x25 target 2 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=25 4x4x1 format 0x25 target 1 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] front end: window visible
+[dm] controller 'Pro Controller' connected: player 1 (npad 0), with motion (gyro)
+haptics: player 1 controller Pro Controller, localities All, Default, Handles, Left Handle, Right Handle, 2 channels
+[dm] [hid] Pro Controller raw motion: player 1 (passive HID 0x30)
+[dm] front end: Home button in apps: app (set by the player)
+[dm] front end: window covered (its display link fires about once a second: frame times measure nothing)
+[dm] [nvn-mtl] shader libraries: one file, /Users/rubenbjugan/Applications/The Legend of Zelda - Ocarina of Time.app/Contents/Resources/msl/b-3ee52af3ca18.img
+[dm] [nvn-mtl] shader library stamp: game 0400486024DEC000, inputs 4bd48f723876
+[dm] front end: window visible
+[dm] [nvn-mtl] uniform read extents: 39125 shaders (cb_extent.tsv)
+[dm] [nvn-mtl] shader route B (translated Switch originals): shader map 42848 entries (/Users/rubenbjugan/Applications/The Legend of Zelda - Ocarina of Time.app/Contents/Resources/dm/shader_map.tsv), metallib directory /Users/rubenbjugan/Applications/The Legend of Zelda - Ocarina of Time.app/Contents/Resources/msl/b-3ee52af3ca18
+[dm] [nvn-mtl] shader prefetch at program creation: first library 0b35a945d761a4c7_b loaded in the background (DM_NVN_PREFETCH=0 turns it off)
+[dm] [nvn] nvnCommandBufferSetRecordingMode 2: the host records every command buffer alike
+launcher: the host exited with 0
