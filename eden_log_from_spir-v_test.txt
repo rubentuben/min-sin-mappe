@@ -1,0 +1,19 @@
+[   0.000525] Frontend <Info> qt_common/qt_common.cpp:245:Init: Eglantine Version: Eglantine Development Build | nx2-experimental-efb9fb18-df2989c794-nx2-experimental-efb9fb18
+[   0.000545] Frontend <Info> qt_common/qt_common.cpp:172:LogRuntimes: Qt Compile: 6.12.0 Runtime: 6.12.0
+[   0.000551] Frontend <Info> qt_common/qt_common.cpp:266:Init: Host CPU Threads: 8
+[   0.000564] Frontend <Info> qt_common/qt_common.cpp:267:Init: Host OS: macOS Golden Gate (27.2)
+[   0.000573] Frontend <Info> qt_common/qt_common.cpp:269:Init: Host RAM: 16.00 GiB
+[   0.000574] Frontend <Info> qt_common/qt_common.cpp:270:Init: Host Swap: 2.00 GiB
+[   0.002209] Config <Info> frontend_common/config.cpp:77:WriteToIni: Writing Global configuration to: /Users/user/.config/eglantine/qt-config.ini
+[   0.004524] Config <Info> frontend_common/config.cpp:77:WriteToIni: Writing Global configuration to: /Users/user/.config/eglantine/qt-config.ini
+[   0.120036] Input <Info> input_common/drivers/udp_client.cpp:144:UDPClient: Udp Initialization started
+[   0.120043] Input <Info> input_common/drivers/udp_client.cpp:338:StartCommunication: Starting communication with UDP input server on 127.0.0.1:26760
+[   1.850608] Input <Info> input_common/drivers/sdl_driver.cpp:123:EnableMotion: Controller motion capabilities: accel=true gyro=true
+[   2.000313] Input <Info> input_common/drivers/joycon.cpp:25:Joycons: Joycon driver Initialization started
+[   2.086374] Frontend <Warning> yuzu/main_window.cpp:4854:OnCheckFirmwareDecryption: Decryption keys are missing: NCA, NSP and XCI games need them
+[   2.086381] Service.FS <Info> core/file_sys/system_archive/system_archive.cpp:98:SynthesizeSystemArchive: Synthesizing system archive 'SystemVersion' (0x100000000000809).
+[   2.086385] Common.Filesystem <Warning> core/file_sys/system_archive/system_version.cpp:15:SystemVersion: called, using hardcoded firmware version: c2663accb7490a6ccfe9bc4dfd120ca215490525, NintendoSDK Firmware for NX 23.0.0-4.0
+[   2.086395] Service.FS <Info> core/file_sys/system_archive/system_archive.cpp:102:SynthesizeSystemArchive:     - System archive generation successful!
+[   2.086402] Frontend <Info> yuzu/main_window.cpp:4929:SetFirmwareVersion: Installed firmware: No firmware available
+[   2.087316] Frontend <Info> qt_common/game_list/worker.cpp:581:run: Discovery: candidates=1 directories=1 skipped_romfs=0 errors=0 cancelled=false
+[   2.091320] Render.Vulkan <Error> video_core/vulkan_common/vulkan_instance.cpp:36:AreExtensionsSupported: Required instance extension VK_KHR_portability_enumeration is not available
